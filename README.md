@@ -1,7 +1,7 @@
 # Rock-Paper-Scissor
 Let's play the simplest game we all have learnt in our childhood! Rock, Paper and Scissor!
 
-**Rules are pretty clear, and yet let me show. **
+**Rules are pretty clear, and yet let me show.**
 - Rock < Paper & Rock > Scissor
 - Paper > Rock & Paper < Scissor
 - Scissor > Paper & Scissor < Rock
