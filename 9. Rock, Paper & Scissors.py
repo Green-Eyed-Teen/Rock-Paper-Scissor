@@ -9,12 +9,12 @@ while not end:
     print(f"{wins} Wins, {losses} Losses and {ties} Ties")
     time.sleep(0.5)
     move = input("Enter your move: (r)ock, (p)aper, (s)cissor or (q)uit\n> ")
-
-    if move.lower() == "q":
+    # Input "r" for Rock, "p" for Paper, "s" for Scissor and "q" for Quit.
+    if move.lower() == "q":  # Quitting the Game
         print("Hope you enjoyed the game :)")
         break
 
-    if move.lower() == "r":
+    if move.lower() == "r":  # Inputted Rock
         print("ROCK versus..")
         time.sleep(0.5)
         random_element = random.choice(elements_list)
@@ -30,7 +30,7 @@ while not end:
             print("You win!\n")
             wins += 1
 
-    elif move.lower() == "p":
+    elif move.lower() == "p":  # Inputted Paper
         print("PAPER versus..")
         time.sleep(0.5)
         random_element = random.choice(elements_list)
@@ -46,7 +46,7 @@ while not end:
             print("You lose!\n")
             losses += 1
 
-    if move.lower() == "s":
+    if move.lower() == "s":  # Inputted Scissor
         print("SCISSOR versus..")
         time.sleep(0.5)
         random_element = random.choice(elements_list)
